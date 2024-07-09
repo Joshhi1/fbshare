@@ -16,14 +16,14 @@ figlet.text(
 
     console.log(chalk.yellow(data));
     console.log(chalk.yellow("--------------------------------------------"));
-    console.log("    Created by: Rui");
-    console.log("    Github: https://github.com/ruingl");
+    console.log("    Created by: NicoDevs");
+    console.log("    Facebook: Amiel Nico Diosa");
     console.log(chalk.yellow("--------------------------------------------"));
 
     const choices = ["Cookie", "Token"];
     const index = rl.keyInSelect(
       choices,
-      chalk.yellow("Choose how to share the post:"),
+      chalk.blue("Choose how to share the post:"),
     );
 
     if (index !== -1) {

@@ -14,16 +14,16 @@ figlet.text(
   (err, data) => {
     if (err) return console.error(err);
 
-    console.log(chalk.yellow(data));
-    console.log(chalk.yellow("--------------------------------------------"));
-    console.log("    Created by: Rui");
-    console.log("    Github: https://github.com/ruingl");
-    console.log(chalk.yellow("--------------------------------------------"));
+    console.log(chalk.blue(data));
+    console.log(chalk.blue("--------------------------------------------"));
+    console.log("    Created by: NicoDevs");
+    console.log("    Facebook: Amiel Nico Diosa");
+    console.log(chalk.blue("--------------------------------------------"));
 
     const choices = ["Cookie", "Token"];
     const index = rl.keyInSelect(
       choices,
-      chalk.yellow("Choose how to share the post:"),
+      chalk.green("Choose how to share the post:"),
     );
 
     if (index !== -1) {
